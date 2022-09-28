@@ -1,0 +1,10 @@
+.altura{
+    height: 50vh;
+}
+img{
+    min-height: 200px;
+    max-height: 100vh;
+}
+p,h1 {
+    color: black;
+}

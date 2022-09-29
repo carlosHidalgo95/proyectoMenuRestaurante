@@ -1,10 +1,19 @@
-.altura{
-    height: 50vh;
-}
 img{
-    min-height: 200px;
     max-height: 100vh;
+}
+.card-img{
+    max-height: 220px;
 }
 p,h1 {
     color: black;
+}
+.tarjeta-vegana{
+    background-image: url("../img/tarjeta-vegetariana.avif");
+}
+.tarjeta-vinos{
+    background-image: url("../img/vinos-card.jpg");
+    background-position: top;
+} 
+.row{
+    margin: 0;
 }

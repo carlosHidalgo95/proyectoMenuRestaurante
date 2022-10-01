@@ -2,7 +2,9 @@ img{
     max-height: 100vh;
 }
 .card-img{
-    max-height: 220px;
+    /* max-height: 220px; */
+    width: 100%;
+    height: 15vw;
     object-fit: cover;
 }
 p,h1 {

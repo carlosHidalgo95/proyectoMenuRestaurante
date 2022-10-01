@@ -3,6 +3,7 @@ img{
 }
 .card-img{
     max-height: 220px;
+    object-fit: cover;
 }
 p,h1 {
     color: black;

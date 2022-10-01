@@ -8,7 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Document</title>
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/carta.css">
 </head>
 
 <body>
@@ -16,91 +18,92 @@
 
         <!-- Barra de navegación -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#"> <span style="color: red;">NOMBRE GENÉRICO</span> <span
-                    style="color:blue ;"></span> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Inicio </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Carta <span class="sr-only">(actual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contact.html">Contacto</a>
-                    </li>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Carta <span class="sr-only">(actual)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact.html">Contacto</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
 
 <!-- Fila Hamburguesas -->
 
-        <div class="row mt-5">
+        <div class="row">
             <h3>Hamburguesas</h3>
         </div>
         <div id="cards-container" class="row mt-2">
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/bacon-western-burger.jpeg" class="card-img" alt="...">
+                    <img src="../img/bacon-western-burger.jpeg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Bacon Western Cheeseburger</h5>
                         <p class="card-text">Carne de ternera movida, pimienta negra, polvo de ajo, cebolla, tocino, queso americano, semillas de sesamo, salsa barbacoa.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/pizza-burger.jpg" class="card-img" alt="...">
+                    <img src="../img/pizza-burger.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Pizza Burger</h5>
                         <p class="card-text">Carne molida, ajo, mozzarella,queso parmesano, pepperoni, mantequilla derretida </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/chicken-burger.jpg" class="card-img" alt="...">
+                    <img src="../img/chicken-burger.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Chicken burger</h5>
                         <p class="card-text">Carne de pollo picada, ajo, cebolla, queso cheddar, lechuga, ensalada de col, aguacate, cebolla roja, jalapeño.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/ramen-burger.jpg" class="card-img" alt="...">
+                    <img src="../img/ramen-burger.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ramen Burger</h5>
                         <p class="card-text">Carne de ternera, 2 paquetes de ramen, huevo, jalapeño, cebolla, cebolla verde, ajo en polvo, lechuga ,tomate ,sriracha.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/turkey-burger.jpg" class="card-img" alt="...">
+                    <img src="../img/turkey-burger.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Turkey Burger</h5>
                         <p class="card-text">Carne de pavo molido, 1 huevo, ajo, salsa inglesa, lechuga, tomate en rodajas, mayonesa.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/salmon-burger.jpg" class="card-img" alt="...">
+                    <img src="../img/salmon-burger.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Greek Salmon Burger</h5>
                         <p class="card-text">filete de salmón, huevo, cebolla, pimienta negra, queso feta, ajo, cebolla roja, pepino, tomate, salsa de yogur.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/potato-burgers.jpg" class="card-img" alt="...">
+                    <img src="../img/potato-burgers.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Potato skin burger</h5>
                         <p class="card-text">Carne de ternera, patatas yukon, tocino, cebollino fresco, queso cheddar.</p>
@@ -115,63 +118,63 @@
             <h3>Comida en rollo</h3>
         </div>
         <div id="cards-container" class="row mt-2">
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/burrito-normal.jpg" class="card-img" alt="...">
+                    <img src="../img/burrito-normal.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burrito tradicional</h5>
                         <p class="card-text">Carne(cerdo/ cordero), tomate, ajo, pimiento rojo,cebolla y queso mozzarella.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/burritos-de-pollo.webp" class="card-img" alt="...">
+                    <img src="../img/burritos-de-pollo.webp" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burrito de pollo</h5>
                         <p class="card-text">Pechuga de pollo, ajo, salsa tabasco,pimiento verde y rojo y tomate triturado.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/burritos-de-arroz.webp" class="card-img" alt="...">
+                    <img src="../img/burritos-de-arroz.webp" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burrito de arroz</h5>
                         <p class="card-text">Arroz, pimiento rojo, tomate, champiñones, cebolla, lechuga y queso rallado.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/burrito-pavo-queso.webp" class="card-img" alt="...">
+                    <img src="../img/burrito-pavo-queso.webp" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burrito de jamón de pavo y queso</h5>
                         <p class="card-text">Jamón de pavo, queso manchego, lechuga, tomates y jugo de limón.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/burrito-atun.webp" class="card-img" alt="...">
+                    <img src="../img/burrito-atun.webp" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burrito de atún</h5>
                         <p class="card-text">Atún , lechuga italiana, pimienta molida, crema ligera.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/fajita-carne-pimiento.jpg" class="card-img" alt="...">
+                    <img src="../img/fajita-carne-pimiento.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Fajita de ternera con pimiento</h5>
                         <p class="card-text">Carne de ternera, tomate, guindilla, cebolleta, pimientos verde y rojo, tomate frito y aceite de oliva</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/fajitas-pollo.jpg" class="card-img" alt="...">
+                    <img src="../img/fajitas-pollo.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Fajita de pollo</h5>
                         <p class="card-text">Carne de pollo, salsa de soja, jengibre, cebolla, pimiento verde, rúcula, zanahoria.</p>
@@ -180,24 +183,24 @@
             </div>
         </div>
 
-<!-- Comidas Veganas -->
+<!-- Fila Comidas Veganas -->
 
         <div class="row mt-5">
             <h3>Platos Veganos</h3>
         </div>
         <div id="cards-container" class="row mt-2">
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/burritos-de-arroz.webp" class="card-img" alt="...">
+                    <img src="../img/burritos-de-arroz.webp" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burrito de arroz</h5>
                         <p class="card-text">Arroz, pimiento rojo, tomate, champiñones, cebolla, lechuga y queso rallado.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3 mb-2">
                 <div class="card h-100">
-                    <img src="../img/falafel-burger.jpg" class="card-img" alt="...">
+                    <img src="../img/falafel-burger.jpg" class="card-img-carta" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Falafel burger</h5>
                         <p class="card-text">Falafel, salsa de tomate, ensalada verde y pan de pita.</p>

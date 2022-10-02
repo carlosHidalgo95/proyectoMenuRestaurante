@@ -1,37 +1,48 @@
-img{
+img {
     max-height: 100vh;
 }
-body{
+
+body {
     background-color: rgb(23, 22, 22);
 }
-.card-img{
+
+.card-img {
     max-height: 220px;
     object-fit: cover;
 }
-.card{
+
+.card {
     background-color: rgb(250, 69, 69);
     height: 100%;
 }
-.nav-titulo{
+
+.nav-titulo {
     font-size: 150%;
 }
-.img-infarto{
-    height:7vh; 
-    width:7vh
+
+.img-infarto {
+    height: 7vh;
+    width: 7vh
 }
-p,h1 {
+
+p,
+h1 {
     color: black;
 }
-.texto-carousel{
+
+.texto-carousel {
     color: white;
 }
-.tarjeta-vegana{
+
+.tarjeta-vegana {
     background-image: url("../img/tarjeta-vegetariana.avif");
 }
-.tarjeta-vinos{
+
+.tarjeta-vinos {
     background-image: url("../img/vinos-card.jpg");
     background-position: top;
-} 
-.row{
+}
+
+.row {
     margin: 0;
 }

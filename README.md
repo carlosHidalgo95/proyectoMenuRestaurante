@@ -4,7 +4,7 @@ Los principales componentes de Bootstrap utiliados son las tarjetas,el carousel,
 como su disposición de columnas y filas para gestionar el responsive.
 
 El home dispone del carousel,así como de 2 tarjetas para navegar a la Carta o a Contacto y 3 tarjetas con los tipos de comida del restaurante.
-
+![image](https://user-images.githubusercontent.com/50781684/193465752-0f8b917c-5d18-499d-a825-15805a59296e.png)
 
 ![image](https://user-images.githubusercontent.com/50781684/193465411-0258654c-9c7a-46ec-8a9c-53a3636ece9a.png)
 En la carta se utilizan rows y cols para crear varias tarjetas con las distintas comidas que se apilan automaticamente

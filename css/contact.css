@@ -4,8 +4,11 @@ body {
     margin-top: 3vh;
 
 }
+.mapa{
+    margin-top: 17vh;
+}
 
-h1 { 
+h3 { 
     display:flex;
     align-items: center;
     justify-content: center;

@@ -29,16 +29,23 @@ p,
 h1 {
     color: black;
 }
+h1{
+    font-size: 5px * 2vh;
+}
+h5{
+    color: black;
+}
 
 .texto-carousel {
     color: white;
 }
 
-.tarjeta-vegana {
-    background-image: url("../img/tarjeta-vegetariana.avif");
+.tarjeta-carta {
+    background-image: url("../img/hamburguesas-patatas.jpg");
+    height: 100%;
 }
 
-.tarjeta-vinos {
+.tarjeta-contacto {
     background-image: url("../img/vinos-card.jpg");
     background-position: top;
 }

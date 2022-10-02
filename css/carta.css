@@ -1,12 +1,10 @@
 body {
-    margin-top: 10vh;
+    margin-top: 12vh;
     background-color: rgb(23, 22, 22);
     color: white;
 }
 
 .card {
-    /* background: rgb(152,142,26);
-    background: linear-gradient(0deg,rgb(211, 82, 13) 27%,rgba(152,142,26,1) 100%); */
     background-color: rgb(250, 69, 69);
     padding: 1vh;
 }

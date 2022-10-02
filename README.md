@@ -1,4 +1,4 @@
-# proyectoMenuRestaurante
+# proyectoRestaurante
 Web responsive creada utilizando html,css y bootstrap 5 así como sus varios componentes.
 Los principales componentes de Bootstrap utiliados son las tarjetas,el carousel,el navbar y los forms,así 
 como su disposición de columnas y filas para gestionar el responsive.

@@ -2,13 +2,16 @@ img{
     max-height: 100vh;
 }
 body{
-
+    background-color: rgb(23, 22, 22);
 }
 .card-img{
     max-height: 220px;
     object-fit: cover;
 }
-
+.card{
+    background-color: rgb(250, 69, 69);
+    height: 100%;
+}
 p,h1 {
     color: black;
 }

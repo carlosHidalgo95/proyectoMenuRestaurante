@@ -12,8 +12,18 @@ body{
     background-color: rgb(250, 69, 69);
     height: 100%;
 }
+.nav-titulo{
+    font-size: 150%;
+}
+.img-infarto{
+    height:7vh; 
+    width:7vh
+}
 p,h1 {
     color: black;
+}
+.texto-carousel{
+    color: white;
 }
 .tarjeta-vegana{
     background-image: url("../img/tarjeta-vegetariana.avif");

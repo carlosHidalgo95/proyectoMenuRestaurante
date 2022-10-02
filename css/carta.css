@@ -15,3 +15,10 @@ body {
     object-fit: cover;
     border: solid black 2px;
 }
+.nav-titulo{
+    font-size: 150%;
+}
+.img-infarto{
+    height:7vh; 
+    width:7vh
+}

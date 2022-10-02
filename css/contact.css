@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(23, 22, 22);
+    color: white;
+    margin-top: 3vh;
+
+}
+
+h1 { 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-titulo{
+    font-size: 150%;
+}
+.img-infarto{
+    height:7vh; 
+    width:7vh
+}
